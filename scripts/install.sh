@@ -14,10 +14,12 @@ source ~/.profile
 ./scripts/clone_nise_bosh.sh
 ./scripts/clone_cf_release.sh
 
-./scripts/install_environemnt.sh
-./scripts/install_cf_release.sh
+echo "Clone - Done!"
 
-set +x
-echo "Done!"
-echo "You can launch Cloud Foundry with './scripts/start.sh'"
-echo "Restart your server before starting processes if you are using Ubuntu 10.04"
+#./scripts/install_environemnt.sh
+#./scripts/install_cf_release.sh
+
+#set +x
+#echo "Done!"
+#echo "You can launch Cloud Foundry with './scripts/start.sh'"
+#echo "Restart your server before starting processes if you are using Ubuntu 10.04"
